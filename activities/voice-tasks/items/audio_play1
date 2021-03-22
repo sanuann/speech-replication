@@ -11,7 +11,7 @@
         "es": "Déjame cantar junto a la luna con nuevos fonemas. No tengo una cuchara para usar como honda."
         },
     "ui": {
-        "inputType": "audioPassageRecord"
+        "inputType": "audioRecordAudioTask"
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
