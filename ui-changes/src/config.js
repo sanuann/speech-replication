@@ -1,6 +1,6 @@
 module.exports = {
   /* eslint-disable */
-  githubSrc: 'https://raw.githubusercontent.com/sanuann/covid19/master/protocol/Covid19_schema',
+  githubSrc: 'https://raw.githubusercontent.com/sanuann/speech-replication/master/protocol/speech_replication_schema',
   startButton: {
     "en": 'Join',
     "es": 'Participar'
