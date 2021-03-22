@@ -24,7 +24,7 @@
             },
             {
                 "variableName": "dob",
-                "isAbout": "demo:dob"
+                "isAbout": "items/dob"
             },
             {
                 "variableName": "sex",
@@ -47,7 +47,7 @@
         "order": [
             "nda:first_name",
             "nda:last_name",
-	        "demo:dob",
+	        "items/dob",
 	        "demo:sex",
             "items/diagnosed_asd",
 	        "items/diagnosed_other",
