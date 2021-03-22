@@ -1,0 +1,59 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/000ea1725a67b35944f67450057f8041cef090a7/activities/demographics_and_background_information_v1/items/",
+            "nda": "https://raw.githubusercontent.com/ReproNim/reproschema-library/000ea1725a67b35944f67450057f8041cef090a7/activities/NDA/items/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "demographics_schema",
+    "prefLabel": "Screening",
+    "description": "Demographics of participant",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "first_name",
+                "isAbout": "nda:first_name"
+            },
+            {
+                "variableName": "last_name",
+                "isAbout": "nda:last_name"
+            },
+            {
+                "variableName": "dob",
+                "isAbout": "demo:dob"
+            },
+            {
+                "variableName": "sex",
+                "isAbout": "demo:sex"
+            },
+            {
+                "variableName": "diagnosed_asd",
+                "isAbout": "items/diagnosed_asd"
+            },
+            {
+                "variableName": "diagnosed_other",
+                "isAbout": "items/diagnosed_other"
+            },
+            {
+                "variableName": "diagnosed_other_yes",
+                "isAbout": "items/diagnosed_other_yes",
+                "isVis": "diagnosed_other === 1"
+            }
+        ],
+        "order": [
+            "nda:first_name",
+            "nda:last_name",
+	        "demo:dob",
+	        "demo:sex",
+            "items/diagnosed_asd",
+	        "items/diagnosed_other",
+            "items/diagnosed_other_yes"
+        ],
+        "shuffle": false
+    }
+}
+

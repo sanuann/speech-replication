@@ -1,0 +1,34 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "voice_tasks": "https://raw.githubusercontent.com/ReproNim/reproschema-library/496cad232ff858b8d1ee2be63f8c7385e85dc6bf/activities/VoiceTask/items/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "voicetask_schema",
+    "prefLabel": "Voice tasks",
+    "description": "Voice tasks",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "preamble": {
+        "en": "For each task after the audio check, click the <u>Play</u> button and listen to the track. Then hit the <u>Record</u> button and repeat what you heard."
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "audio_check",
+                "isAbout": "voice_tasks:audio_check"
+            },
+            {
+                "variableName": "audio_play1",
+                "isAbout": "items/audio_play1"
+            }
+        ],
+        "order": [
+            "voice_tasks:audio_check",
+            "items/audio_play1"
+        ],
+        "shuffle": false
+    }
+}

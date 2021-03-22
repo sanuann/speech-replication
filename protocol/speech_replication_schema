@@ -1,0 +1,56 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema-library/000ea1725a67b35944f67450057f8041cef090a7/activities/"
+        }
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "speech_replication_schema",
+    "prefLabel": {
+        "en": "Speech Replication"
+    },
+    "description": "Speech as a biomarker of ASD",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "landingPage": [{
+            "@id": "README.md",
+            "inLanguage": "en"
+        }
+    ],
+    "ui": {
+        "order": [
+            "../activities/demographics/demographics_schema",
+            "../activities/voice-tasks/voicetask_schema",
+            "activity_path:ThankYou/ThankYou_schema"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "isAbout": "../activities/voice-tasks/voicetask_schema",
+                "variableName": "voice_schema",
+                "prefLabel": {
+                    "en": "Voice Tasks"
+                }
+            },
+            {
+                "isAbout": "../activities/demographics/demographics_schema",
+                "variableName": "demographics_schema",
+                "prefLabel": {
+                    "en": "Screening"
+                }
+            },
+            {
+                "isAbout": "activity_path:ThankYou/ThankYou_schema",
+                "variableName": "ThankYou_schema",
+                "prefLabel": {
+                    "en": "Submit Responses"
+                }
+            }
+        ],
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
+    }
+}

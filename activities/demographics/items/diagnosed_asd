@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosed_asd",
+    "prefLabel": "ASD diagnosis",
+    "description": "details of ASD diagnosis",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "Have you been diagnosed with ASD?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 1,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "value": 1,
+                "name": "Yes"
+            },
+            {
+                "value": 0,
+                "name": "No"
+            }
+        ]
+    }
+}
+
