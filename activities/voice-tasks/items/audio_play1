@@ -6,10 +6,13 @@
     "description": "Sentences with high frequency of nasals",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question":
-        {"en": "Let me sing by the moon with novel phonemes. There is nothing in my spoon to use as a sling.",
-        "es": "Déjame cantar junto a la luna con nuevos fonemas. No tengo una cuchara para usar como honda."
-        },
+    "audio": {
+      "@type": "AudioObject",
+      "contentUrl": "https://www2.cs.uic.edu/~i101/SoundFiles/preamble.wav"
+    },
+    "question": {
+        "en": "click the <u>Play</u> button and listen to the track. Then hit the <u>Record</u> button and repeat what you heard."
+    },
     "ui": {
         "inputType": "audioRecordAudioTask"
     },

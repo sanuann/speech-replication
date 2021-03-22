@@ -11,9 +11,6 @@
     "description": "Voice tasks",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "preamble": {
-        "en": "For each task after the audio check, click the <u>Play</u> button and listen to the track. Then hit the <u>Record</u> button and repeat what you heard."
-    },
     "ui": {
         "addProperties": [
             {
