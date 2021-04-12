@@ -1,9 +1,7 @@
 ![CI](https://github.com/sensein/covid19/workflows/CI/badge.svg)
 
 
-This a protocol being used to assess speech as a biomarker of ASD. 
-The overall protocol is in the `protocol`folder and individual tasks and items
-are in the `demographics` and `voice-tasks` folders. 
+The aim of this wide-scale project is to investigate whether speech production and/or speech emotion recognition in individuals with Autism Spectrum Disorder (ASD) function as viable, objective biomarkers tht aids the diagnostic decision.
 
 # Technical details
 
