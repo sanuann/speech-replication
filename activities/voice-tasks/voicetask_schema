@@ -20,7 +20,51 @@
             {
                 "variableName": "audio_play1",
                 "isAbout": "items/audio_play1"
-            }
+            },
+            {
+                "variableName": "neutral_1",
+                "isAbout": "voice_tasks:audio_check"
+            },
+            {
+                "variableName": "neutral_2",
+                "isAbout": "voice_tasks:audio_check"
+            },
+            {
+                "variableName": "neutral_3",
+                "isAbout": "voice_tasks:audio_check"
+            },
+            {
+                "variableName": "neutral_4",
+                "isAbout": "voice_tasks:audio_check"
+            },
+            {
+                "variableName": "neutral_5",
+                "isAbout": "voice_tasks:audio_check"
+            },
+            {
+                "variableName": "neutral_6",
+                "isAbout": "voice_tasks:audio_check"
+            },
+            {
+                "variableName": "neutral_7",
+                "isAbout": "voice_tasks:audio_check"
+            },
+            {
+                "variableName": "neutral_8",
+                "isAbout": "voice_tasks:audio_check"
+            },
+            {
+                "variableName": "neutral_9",
+                "isAbout": "voice_tasks:audio_check"
+            },
+            {
+                "variableName": "neutral_10",
+                "isAbout": "voice_tasks:audio_check"
+            },
+            {
+                "variableName": "neutral_11",
+                "isAbout": "voice_tasks:audio_check"
+            },
         ],
         "order": [
             "voice_tasks:audio_check",
