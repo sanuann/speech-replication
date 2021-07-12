@@ -23,47 +23,47 @@
             },
             {
                 "variableName": "neutral_1",
-                "isAbout": "voice_tasks:audio_check"
+                "isAbout": "items/neutral_1"
             },
             {
                 "variableName": "neutral_2",
-                "isAbout": "voice_tasks:audio_check"
+                "isAbout": "items/neutral_2"
             },
             {
                 "variableName": "neutral_3",
-                "isAbout": "voice_tasks:audio_check"
+                "isAbout": "items/neutral_3"
             },
             {
                 "variableName": "neutral_4",
-                "isAbout": "voice_tasks:audio_check"
+                "isAbout": "items/neutral_4"
             },
             {
                 "variableName": "neutral_5",
-                "isAbout": "voice_tasks:audio_check"
+                "isAbout": "items/neutral_5"
             },
             {
                 "variableName": "neutral_6",
-                "isAbout": "voice_tasks:audio_check"
+                "isAbout": "items/neutral_6"
             },
             {
                 "variableName": "neutral_7",
-                "isAbout": "voice_tasks:audio_check"
+                "isAbout": "items/neutral_7"
             },
             {
                 "variableName": "neutral_8",
-                "isAbout": "voice_tasks:audio_check"
+                "isAbout": "items/neutral_8"
             },
             {
                 "variableName": "neutral_9",
-                "isAbout": "voice_tasks:audio_check"
+                "isAbout": "items/neutral_9"
             },
             {
                 "variableName": "neutral_10",
-                "isAbout": "voice_tasks:audio_check"
+                "isAbout": "items/neutral_10"
             },
             {
                 "variableName": "neutral_11",
-                "isAbout": "voice_tasks:audio_check"
+                "isAbout": "items/neutral_11"
             },
         ],
         "order": [
