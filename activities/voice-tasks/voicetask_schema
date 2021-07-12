@@ -68,7 +68,18 @@
         ],
         "order": [
             "voice_tasks:audio_check",
-            "items/audio_play1"
+            "items/audio_play1",
+            "items/neutral_1",
+            "items/neutral_2",
+            "items/neutral_3",
+            "items/neutral_4",
+            "items/neutral_5",
+            "items/neutral_6",
+            "items/neutral_7",
+            "items/neutral_8",
+            "items/neutral_9",
+            "items/neutral_10",
+            "items/neutral_11"
         ],
         "shuffle": false
     }
