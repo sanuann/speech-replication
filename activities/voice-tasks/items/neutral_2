@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "audio": {
       "@type": "AudioObject",
-      "contentUrl": "https://www.dropbox.com/sh/2x1mfeuz1402qwh/AACt3QhQQZiqoLTdh5BBd6iQa/20210509%20143530.m4a?dl=0"
+      "contentUrl": "https://www.dropbox.com/sh/2x1mfeuz1402qwh/AACt3QhQQZiqoLTdh5BBd6iQa/20210509%20143530.m4a?raw=1"
     },
     "question": {
         "en": "click the <u>Play</u> button and listen to the track. Then hit the <u>Record</u> button and repeat what you heard."
