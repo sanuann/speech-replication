@@ -31,8 +31,33 @@
                 "isAbout": "demo:sex"
             },
             {
+                "variableName": "handedness",
+                "isAbout": "items/handedness"
+            },
+            {
                 "variableName": "diagnosed_asd",
                 "isAbout": "items/diagnosed_asd"
+            },
+            {
+                "variableName": "diagnosed_asd_relatives",
+                "isAbout": "items/diagnosed_asd_relatives",
+                "isVis": "diagnosed_asd === 0"
+            },
+            {
+                "variableName": "alcohol_history",
+                "isAbout": "items/alcohol_history"
+            },
+            {
+                "variableName": "seizure_history",
+                "isAbout": "items/seizure_history"
+            },
+            {
+                "variableName": "adhd_treatment",
+                "isAbout": "items/adhd_treatment"
+            },
+            {
+                "variableName": "psychotropics_treatment",
+                "isAbout": "items/psychotropics_treatment"
             },
             {
                 "variableName": "diagnosed_other",
@@ -49,7 +74,13 @@
             "nda:last_name",
 	        "items/dob",
 	        "demo:sex",
+	        "items/handedness",
             "items/diagnosed_asd",
+            "items/diagnosed_asd_relatives",
+            "items/adhd_treatment",
+            "items/seizure_history",
+            "items/alcohol_history",
+            "items/psychotropics_treatment",
 	        "items/diagnosed_other",
             "items/diagnosed_other_yes"
         ],

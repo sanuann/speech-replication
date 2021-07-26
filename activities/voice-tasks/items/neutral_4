@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "neutral_4",
+    "prefLabel": "Sentences with high frequency of nasals",
+    "description": "Sentences with high frequency of nasals",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "audio": {
+      "@type": "AudioObject",
+      "contentUrl": "https://www.dropbox.com/sh/2x1mfeuz1402qwh/AAD71fZX4jV6yakge_SNFH-Za/20210509%20143613.m4a?raw=1"
+    },
+    "question": {
+        "en": "click the <u>Play</u> button and listen to the track. Then hit the <u>Record</u> button and repeat what you heard."
+    },
+    "ui": {
+        "inputType": "audioRecordAudioTask"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 20000
+    }
+}
+

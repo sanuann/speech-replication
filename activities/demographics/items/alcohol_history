@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "diagnosed_other",
-    "prefLabel": "psychiatric diagnosis",
-    "description": "any other psychiatric diagnosis",
+    "@id": "alcohol_history",
+    "prefLabel": "ASD diagnosis",
+    "description": "details of ASD diagnosis",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-	    "en": "Have you ever been diagnosed with any other neurodevelopmental or neuropsychiatric disorder(including mood disorder and anxiety disorder)?"
+	    "en": "Have you ever gotten treatment for an alcohol related disorder, substance abuse, or addiction?"
     },
     "ui": {
         "inputType": "radio"
