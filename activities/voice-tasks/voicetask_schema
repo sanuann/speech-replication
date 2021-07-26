@@ -64,7 +64,7 @@
             {
                 "variableName": "neutral_11",
                 "isAbout": "items/neutral_11"
-            },
+            }
         ],
         "order": [
             "voice_tasks:audio_check",
