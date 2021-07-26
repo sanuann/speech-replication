@@ -18,10 +18,6 @@
                 "isAbout": "voice_tasks:audio_check"
             },
             {
-                "variableName": "audio_play1",
-                "isAbout": "items/audio_play1"
-            },
-            {
                 "variableName": "neutral_1",
                 "isAbout": "items/neutral_1"
             },
@@ -68,7 +64,6 @@
         ],
         "order": [
             "voice_tasks:audio_check",
-            "items/audio_play1",
             "items/neutral_1",
             "items/neutral_2",
             "items/neutral_3",
