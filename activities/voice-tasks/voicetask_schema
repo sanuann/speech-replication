@@ -60,6 +60,10 @@
             {
                 "variableName": "neutral_11",
                 "isAbout": "items/neutral_11"
+            },
+            {
+                "variableName": "emotion_guess",
+                "isAbout": "items/emotion_guess"
             }
         ],
         "order": [
@@ -74,7 +78,8 @@
             "items/neutral_8",
             "items/neutral_9",
             "items/neutral_10",
-            "items/neutral_11"
+            "items/neutral_11",
+            "items/emotion_guess"
         ],
         "shuffle": false
     }
