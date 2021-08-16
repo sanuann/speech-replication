@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "adhd_treatment",
+    "@id": "diagnosed_relatives",
     "prefLabel": "ASD diagnosis",
     "description": "details of ASD diagnosis",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": {
-	    "en": "Are you currently under treatment for ADHD?"
+	    "en": "Do you or your first-degree relatives have a history of psychiatric disease"
     },
     "ui": {
         "inputType": "radio"

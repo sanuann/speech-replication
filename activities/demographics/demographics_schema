@@ -39,21 +39,27 @@
                 "isAbout": "items/diagnosed_asd"
             },
             {
-                "variableName": "diagnosed_asd_relatives",
-                "isAbout": "items/diagnosed_asd_relatives",
+                "variableName": "diagnosed_relatives",
+                "isAbout": "items/diagnosed_relatives",
                 "isVis": "diagnosed_asd === 0"
-            },
-            {
-                "variableName": "alcohol_history",
-                "isAbout": "items/alcohol_history"
             },
             {
                 "variableName": "seizure_history",
                 "isAbout": "items/seizure_history"
             },
             {
-                "variableName": "adhd_treatment",
-                "isAbout": "items/adhd_treatment"
+                "variableName": "alcohol_history",
+                "isAbout": "items/alcohol_history",
+                "isVis": "seizure_history === 0"
+            },
+            {
+                "variableName": "stop",
+                "isAbout": "items/stop",
+                "isVis": "seizure_history === 1 || alcohol_history === 1"
+            },
+            {
+                "variableName": "current_treatment",
+                "isAbout": "items/current_treatment"
             },
             {
                 "variableName": "psychotropics_treatment",
@@ -61,7 +67,8 @@
             },
             {
                 "variableName": "diagnosed_other",
-                "isAbout": "items/diagnosed_other"
+                "isAbout": "items/diagnosed_other",
+                "isVis": "diagnosed_asd === 1"
             },
             {
                 "variableName": "diagnosed_other_yes",
@@ -75,14 +82,19 @@
 	        "items/dob",
 	        "demo:sex",
 	        "items/handedness",
-            "items/diagnosed_asd",
-            "items/diagnosed_asd_relatives",
-            "items/adhd_treatment",
             "items/seizure_history",
             "items/alcohol_history",
-            "items/psychotropics_treatment",
-	        "items/diagnosed_other",
-            "items/diagnosed_other_yes"
+            "items/stop",
+            "items/diagnosed_asd",
+            "items/current_treatment",
+            "items/indicate_meds",
+            "items/diagnosed_other",
+            "items/diagnosed_other_yes",
+            "items/diagnosed_relatives",
+            "items/stop",
+            "items/current_treatment",
+            "items/indicate_meds"
+
         ],
         "shuffle": false
     }
