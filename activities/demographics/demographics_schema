@@ -91,7 +91,6 @@
 	        "items/handedness",
             "items/seizure_history",
             "items/alcohol_history",
-            "items/stop",
             "items/current_treatment",
             "items/indicate_meds",
             "items/diagnosed_asd",
