@@ -36,12 +36,8 @@
             },
             {
                 "variableName": "diagnosed_asd",
-                "isAbout": "items/diagnosed_asd"
-            },
-            {
-                "variableName": "diagnosed_relatives",
-                "isAbout": "items/diagnosed_relatives",
-                "isVis": "diagnosed_asd === 0"
+                "isAbout": "items/diagnosed_asd",
+                "isVis": "seizure_history === 0 && alcohol_history === 0"
             },
             {
                 "variableName": "seizure_history",
@@ -59,7 +55,13 @@
             },
             {
                 "variableName": "current_treatment",
-                "isAbout": "items/current_treatment"
+                "isAbout": "items/current_treatment",
+                "isVis": "seizure_history === 0 && alcohol_history === 0"
+            },
+            {
+                "variableName": "indicate_meds",
+                "isAbout": "items/indicate_meds",
+                "isVis": "seizure_history === 0 && alcohol_history === 0 && current_treatment === 1"
             },
             {
                 "variableName": "psychotropics_treatment",
@@ -68,12 +70,17 @@
             {
                 "variableName": "diagnosed_other",
                 "isAbout": "items/diagnosed_other",
-                "isVis": "diagnosed_asd === 1"
+                "isVis": "seizure_history === 0 && alcohol_history === 0 && diagnosed_asd === 1"
             },
             {
                 "variableName": "diagnosed_other_yes",
                 "isAbout": "items/diagnosed_other_yes",
-                "isVis": "diagnosed_other === 1"
+                "isVis": "seizure_history === 0 && alcohol_history === 0 && diagnosed_other === 1"
+            },
+            {
+                "variableName": "diagnosed_relatives",
+                "isAbout": "items/diagnosed_relatives",
+                "isVis": "seizure_history === 0 && alcohol_history === 0 && diagnosed_asd === 0"
             }
         ],
         "order": [
@@ -85,15 +92,12 @@
             "items/seizure_history",
             "items/alcohol_history",
             "items/stop",
-            "items/diagnosed_asd",
             "items/current_treatment",
             "items/indicate_meds",
+            "items/diagnosed_asd",
             "items/diagnosed_other",
             "items/diagnosed_other_yes",
-            "items/diagnosed_relatives",
-            "items/stop",
-            "items/current_treatment",
-            "items/indicate_meds"
+            "items/diagnosed_relatives"
 
         ],
         "shuffle": false
