@@ -49,11 +49,6 @@
                 "isVis": "seizure_history === 0"
             },
             {
-                "variableName": "stop",
-                "isAbout": "items/stop",
-                "isVis": "seizure_history === 1 || alcohol_history === 1"
-            },
-            {
                 "variableName": "current_treatment",
                 "isAbout": "items/current_treatment",
                 "isVis": "seizure_history === 0 && alcohol_history === 0"
