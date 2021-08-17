@@ -14,7 +14,7 @@
         "en": "click the <u>Play</u> button and listen to the track. Then guess the emotion in the voice clip."
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "textGuessAudioTask"
     },
     "responseOptions": {
         "valueType": "xsd:string"
